@@ -15,14 +15,18 @@ Pour récupérer les prévisions météo : https://api.openweathermap.org/data/2
 ## Réponse HTTP
 
 ```json
-{
-    "coucher":"15:53",
-    "humidite":70,
-    "icon":803,
-    "lever":"07:31",
-    "temp":8.13,
-    "temps":"nuageux"
-}
+[
+  
+    {
+        "coucher":"15:53",
+        "humidite":70,
+        "icon":803,
+        "lever":"07:31",
+        "temp":8.13,
+        "temps":"nuageux"
+    }
+  
+]
 ```
 
 Pour l'icône, récupérer l'attribut `id` de l'élément `weather`. Attention les heures de coucher et de lever de soleil sont de timestamp Unix et les températures sont en Kelvin.
